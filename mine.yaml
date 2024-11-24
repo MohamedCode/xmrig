@@ -1,4 +1,4 @@
-name: Mining Action
+name: Mining Actions
 
 on:
   push:
