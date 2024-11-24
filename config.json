@@ -50,8 +50,8 @@
             [8, 6],
             [8, 7]
         ],
-        "rx": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+        "rx": [0, 1, 2, 3, 4, 5, 6, 7],
+        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
         "cn-lite/0": false,
         "cn/0": false,
         "rx/arq": "rx/wow"
@@ -77,7 +77,7 @@
             "algo": "rx/0",
             "coin": null,
             "url": "randomxmonero.eu.nicehash.com:3380",
-            "user": "35yc2HyJ9fWNXWxQ5gSpRY2mNgaWnZUA64.github-actions-captainAmerica",
+            "user": "35yc2HyJ9fWNXWxQ5gSpRY2mNgaWnZUA64.github-actions-1",
             "pass": "x",
             "rig-id": null,
             "nicehash": true,
